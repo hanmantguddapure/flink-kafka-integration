@@ -8,4 +8,5 @@ Kafka send stream data to flink ,flink analysis data and send to Kafka.
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 
 # Create Topic
-.\bin\kafka-topics.sh --create --zookeeper localhost:9092 --replication-factor 1 --partitions 1 --topic flink-test
+.\bin\windows\kafka-topics.bat --create --topic flink-test --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1  
+

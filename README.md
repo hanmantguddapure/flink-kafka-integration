@@ -17,3 +17,6 @@ Kafka send stream data to flink ,flink analysis data and send to Kafka.
 # Create Consumer
 .\bin\windows\kafka-console-consumer.bat --topic flink-test --from-beginning --bootstrap-server localhost:9092
 
+# Start Cluster
+.\bin\start-cluster.bat
+
